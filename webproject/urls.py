@@ -34,4 +34,3 @@ urlpatterns = [
     ...
     path('gallery', testapp.views.gallery),
 ]
-
