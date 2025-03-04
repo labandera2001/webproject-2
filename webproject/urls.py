@@ -20,3 +20,18 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+import testapp.views
+
+urlpatterns = [
+    ...
+    path('get_example', testapp.views.get_example),
+]
+
+import testapp.views
+
+urlpatterns = [
+    ...
+    path('gallery', testapp.views.gallery),
+]
+
